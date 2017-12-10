@@ -4,7 +4,7 @@
   box-shadow: 3px 0 8px rgba(0, 0, 0, 0.1);
   height: 100vh;
   overflow-y: auto;
-  background: url('/spiderman.jpg') center center;
+  background-position: center center;
   background-size: cover;
 }
   .sidebar__title {

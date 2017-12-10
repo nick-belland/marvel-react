@@ -1,4 +1,4 @@
-const marvelURL = 'http://gateway.marvel.com/v1/public/characters';
+const marvelURL = 'https://gateway.marvel.com/v1/public/characters';
 
 export const getCharacters = (characters, name) => {
   return fetch(`${marvelURL}?limit=40${name ? `&nameStartsWith=${name}` : ''}&offset=${characters.length}&apikey=${process.env.REACT_APP_MARVEL}`)
