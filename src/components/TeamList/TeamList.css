@@ -1,0 +1,9 @@
+.team-list {
+  padding: 12px;
+}
+  .team-list__item {
+    width: 100%;
+  }
+  .team-list__empty {
+    text-align: center;
+  }
